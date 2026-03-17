@@ -4,7 +4,7 @@ import TrafficChart  from './components/TrafficChart.jsx'
 import HealthScore   from './components/HealthScore.jsx'
 import AlertPanel    from './components/AlertPanel.jsx'
 
-const WS_URL = 'ws://localhost:8000/ws' || 'ws://localhost:8000/ws'
+const WS_URL = import.meta.env.VITE_WS_URL || 'wss://ai-network-digital-twin.onrender.com/ws'
 const HISTORY_MAX = 200
 const PACKET_FEED_MAX = 30
 
