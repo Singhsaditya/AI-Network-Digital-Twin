@@ -249,7 +249,7 @@ export default function App() {
           <div className="spinner" />
           <div className="connecting-text">CONNECTING TO BACKEND...</div>
           <div style={{ fontSize: 10, color: '#2d5070', fontFamily: "'JetBrains Mono', monospace" }}>
-            ws://localhost:8000/ws
+            wss://ai-network-digital-twin.onrender.com/ws
           </div>
         </div>
       )}
