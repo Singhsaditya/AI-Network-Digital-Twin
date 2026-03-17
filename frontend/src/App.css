@@ -31,7 +31,7 @@ html, body, #root {
   font-family: var(--font-ui);
   font-size: 14px;
   line-height: 1.5;
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* ─── Layout ────────────────────────────────────────────────────────────────── */
@@ -40,7 +40,7 @@ html, body, #root {
   grid-template-rows: 56px 1fr;
   grid-template-columns: 1fr;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .header {
@@ -120,13 +120,13 @@ html, body, #root {
   grid-template-columns: 320px 1fr 300px;
   grid-template-rows: 1fr;
   gap: 1px;
-  overflow: hidden;
+  overflow: auto;
   background: var(--border);
 }
 
 .panel {
   background: var(--bg-panel);
-  overflow: hidden;
+  overflow: auto;
   display: flex;
   flex-direction: column;
 }
@@ -181,7 +181,7 @@ html, body, #root {
   background: var(--bg-panel);
   flex: 1;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .charts-wrapper {
@@ -264,7 +264,7 @@ html, body, #root {
   height: 4px;
   background: var(--bg-card);
   border-radius: 2px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .health-bar-fill {
